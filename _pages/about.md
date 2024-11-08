@@ -19,6 +19,6 @@ news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-I am a PhD student and University Assistant at the University of Vienna. My research focusses on the observation and characterisation of exoplanetary atmospheres. I reduce observations taken by the James Webb Space Telescope (JWST) with Eureka!, and perform atmospheric retrievals with the Bayesian inference framework TauREx.
+I am a PhD student and University Assistant at the University of Vienna. My research focusses on the observation and characterisation of exoplanetary atmospheres. I work on the end-to-end data reduction of observations taken by the James Webb Space Telescope (JWST), and the characterisation of exo-atmospheric properties from these data sets.
 
-I currently work on the atmospheres of hot Jupiters and sub-Neptunes, but my research interests also include the co-evolution of star-planet systems, interactions between host stars and their planets, and planetary habitability.
+My current work focusses on the atmospheres of hot Jupiters and sub-Neptunes, but my research interests also include the co-evolution of star-planet systems, interactions between host stars and their planets, and planetary habitability.
