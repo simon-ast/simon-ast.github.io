@@ -21,10 +21,10 @@
       "location": "Vienna, Austria",
       "url": "https://www.univie.ac.at/en/",
       "area": "Astronomy",
-      "studyType": "PhD",
+      "studyType": "Doctor of Natural Sciences (Dr. rer. nat.)",
       "startDate": "2022-10-01",
       "endDate": "ongoing",
-      "courses": ["Research project: Characterising exoplanets in the era of JWST"]
+      "highlight": "Research project: Characterising exoplanets in the era of JWST"
     },
     {
       "institution": "University of Vienna",
@@ -34,7 +34,7 @@
       "url": "https://www.univie.ac.at/en/",
       "startDate": "2019-10",
       "endDate": "2022-01",
-      "courses": ["Thesis: Stellar wind simulations in the age of PSP and Solar Orbiter (<a href='https://utheses.univie.ac.at/detail/61765/'>link</a>)"]
+      "highlight": "Thesis: Stellar wind simulations in the age of PSP and Solar Orbiter (<a href='https://utheses.univie.ac.at/detail/61765/'>link</a>)"
     },
     {
       "institution": "University of Vienna",
@@ -44,42 +44,56 @@
       "studyType": "Bachelor of Science (BSc)",
       "startDate": "2016-10",
       "endDate": "2019-09",
-      "courses": ["Thesis: Evolution and escape of atmospheres of planets orbiting M dwarfs"]
+      "highlight": "Thesis: Evolution and escape of atmospheres of planets orbiting M dwarfs"
     }
   ],
 
   "publications": [
     {
       "name": "Knobs and dials of retrieving JWST transmission spectra. I. The importance of p-T profile complexity",
-      "publisher": "Astronomy & Astrophysics (accepted)",
-      "releaseDate": "2024",
-      "url": "https://arxiv.org/abs/2409.09127"
+      "publisher": "Astronomy & Astrophysics, 690, A336",
+      "releaseDate": "2024-10",
+      "url": "https://www.aanda.org/articles/aa/full_html/2024/10/aa51845-24/aa51845-24.html"
     },
     {
       "name": "NIRwave: A wave-turbulence-driven solar wind model constrained by PSP observations ",
-      "publisher": "Astronomy & Astrophysics",
+      "publisher": "Astronomy & Astrophysics, 672, A64",
       "releaseDate": "2023-04",
       "url": "https://www.aanda.org/articles/aa/full_html/2023/04/aa45009-22/aa45009-22.html"
     }
   ],
 
-  "skills": [
+  "presentations": [
     {
-      "name": "Software",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Eureka!",
-        "TauREx",
-        "paraview"
-      ]
+      "eventName": "Ariel Consortium Meeting",
+      "eventLoc": "Lisbon, Portugal",
+      "eventDate": "2024-10",
+      "contribType": "Talk",
+      "contribTitle": "Retrieving pressure-temperature profiles from exoplanet transmission spectra"
     },
     {
-      "name": "Programming",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Python (experienced)",
-        "C (familiar)"
-      ]
+      "eventName": "Exoplanets 5",
+      "eventLoc": "Leiden, The Netherlands",
+      "eventPage": "https://exoplanets5.org/",
+      "eventDate": "2024-06",
+      "contribType": "Poster",
+      "contribTitle": "Influences of data processing techniques on the interpretation of atmospheric spectra from JWST"
+    },
+    {
+      "eventName": "Austrian Early Career Conference (AECC)",
+      "eventLoc": "Salzburg, Austria",
+      "eventPage": "https://www.oegaa.at/AECC/",
+      "eventDate": "2024-03",
+      "contribType": "Talk",
+      "contribTitle": "Influences of data processing techniques on the interpretation of atmospheric spectra from JWST"
+    },
+    {
+      "eventName": "PLANET ESLAB 2023 (55th ESLAB Symposium)",
+      "eventLoc": "ESTEC, The Netherlands",
+      "eventPage": "https://www.cosmos.esa.int/web/planet-eslab-2023",
+      "eventDate": "2023-03",
+      "contribType": "Poster",
+      "contribTitle": "NIRwave: A wave-turbulence-driven solar wind model constrained by Parker Solar Probe observations"
     }
   ],
 

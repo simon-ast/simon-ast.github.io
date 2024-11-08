@@ -81,12 +81,21 @@ layout: default
             <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
             <div>
               {% case data[0] %}
+
+              {% comment %} CHANGED ORDER OF THIS {% endcomment %}
                 {% when 'basics' %}
                   {% include resume/basics.liquid %}
-                {% when 'education' %}
-                  {% include resume/education.liquid %}
                 {% when 'work' %}
                   {% include resume/work.liquid %}
+                {% when 'publications' %}
+                  {% include resume/publications.liquid %}
+                
+                {% comment %} ADDED A PRESENTATIONS TAB {% endcomment %}
+                {% when 'presentations' %}
+                  {% include resume/presentations.liquid %}
+
+                {% when 'education' %}
+                  {% include resume/education.liquid %}
                 {% when 'volunteer' %}
                   {% include resume/volunteer.liquid %}
                 {% when 'projects' %}
@@ -95,8 +104,6 @@ layout: default
                   {% include resume/awards.liquid %}
                 {% when 'skills' %}
                   {% include resume/skills.liquid %}
-                {% when 'publications' %}
-                  {% include resume/publications.liquid %}
                 {% when 'languages' %}
                   {% include resume/languages.liquid %}
                 {% when 'interests' %}
