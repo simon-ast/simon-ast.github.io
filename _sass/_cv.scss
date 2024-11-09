@@ -33,9 +33,15 @@ a.btncv:hover {
   text-decoration: none !important;
 }
 
+
 /*****************************
  * CV TIME_TABLE styles
  *****************************/
+
+p.contribution {
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
 
 p.location {
   font-size: 0.7rem;

@@ -192,9 +192,6 @@
       {% if entry.abstract %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       {% endif %}
-      {% if entry.doi %}
-        <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
-      {% endif %}
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
@@ -208,6 +205,24 @@
           <a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
         {% endif %}
       {% endif %}
+
+      {% comment %} ADDED DOI AND POSSIBLE DATA REPOSITORY LINK {% endcomment %}
+      {%- if entry.doi %}
+        {% if entry.doi contains '://' -%}
+          <a href="{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">doi</a>
+        {%- else -%}
+          <a href="{{ entry.doi | prepend: 'https://doi.org/'}}" class="btn btn-sm z-depth-0" role="button">doi</a>
+        {%- endif %}    
+      {%- endif %}
+
+      {%- if entry.data %}
+        {% if entry.data contains '://' -%}
+          <a href="{{ entry.data }}" class="btn btn-sm z-depth-0" role="button">data</a>
+        {%- else -%}
+          <a href="{{ entry.data | prepend: 'https://'}}" class="btn btn-sm z-depth-0" role="button">data</a>
+        {%- endif %}    
+      {%- endif %}
+
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
           <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
