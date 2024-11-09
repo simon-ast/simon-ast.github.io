@@ -212,7 +212,7 @@
           <a href="{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">doi</a>
         {%- else -%}
           <a href="{{ entry.doi | prepend: 'https://doi.org/'}}" class="btn btn-sm z-depth-0" role="button">doi</a>
-        {%- endif %}    
+        {%- endif %}
       {%- endif %}
 
       {%- if entry.data %}
@@ -220,7 +220,7 @@
           <a href="{{ entry.data }}" class="btn btn-sm z-depth-0" role="button">data</a>
         {%- else -%}
           <a href="{{ entry.data | prepend: 'https://'}}" class="btn btn-sm z-depth-0" role="button">data</a>
-        {%- endif %}    
+        {%- endif %}
       {%- endif %}
 
       {% if entry.pdf %}
