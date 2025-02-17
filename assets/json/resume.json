@@ -50,15 +50,27 @@
 
   "publications": [
     {
+      "name": "Habitable Zone and Atmosphere Retention Distance (HaZARD). Stellar-evolution-dependent loss models of secondary atmospheres",
+      "authors": "G. Van Looveren, S. Boro Saikia, O. Herbort, S. Schleich, M. Güdel, C. P. Johnstone, and K. G. Kislyakova",
+      "publisher": "arXiv:2502.09702 [astro-ph.EP]",
+      "releaseDate": "2025-02",
+      "role": "Co-author",
+      "url": "http://arxiv.org/abs/2502.09702"
+    },
+    {
       "name": "Knobs and dials of retrieving JWST transmission spectra. I. The importance of p-T profile complexity",
+      "authors": "S. Schleich, S. Boro Saikia, Q. Changeat, M. Güdel, A. Voigt, and I. Waldmann",
       "publisher": "Astronomy & Astrophysics, 690, A336",
       "releaseDate": "2024-10",
+      "role": "Author",
       "url": "https://www.aanda.org/articles/aa/full_html/2024/10/aa51845-24/aa51845-24.html"
     },
     {
       "name": "NIRwave: A wave-turbulence-driven solar wind model constrained by PSP observations ",
+      "authors": "S. Schleich, S. Boro Saikia, U. Ziegler, M. Güdel, and M. Bartel",
       "publisher": "Astronomy & Astrophysics, 672, A64",
       "releaseDate": "2023-04",
+      "role": "Author",
       "url": "https://www.aanda.org/articles/aa/full_html/2023/04/aa45009-22/aa45009-22.html"
     }
   ],
