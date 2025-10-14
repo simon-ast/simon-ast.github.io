@@ -4,8 +4,8 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: https://simon-ast.github.io/assets/pdf/bsc_thesis.pdf
+cv_pdf: resume.pdf
 description: 
 toc:
-  sidebar: false
+  sidebar: true
 ---
