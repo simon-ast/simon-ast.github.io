@@ -44,7 +44,7 @@
       "studyType": "Bachelor of Science (BSc)",
       "startDate": "2016-10",
       "endDate": "2019-09",
-      "highlight": "Thesis: Evolution and escape of atmospheres of planets orbiting M dwarfs"
+      "highlight": "Thesis: Evolution and escape of atmospheres of planets orbiting M dwarfs (<a href='https://simon-ast.github.io/assets/pdf/bsc_thesis.pdf'>PDF</a>)"
     }
   ],
 
@@ -76,6 +76,14 @@
   ],
 
   "presentations": [
+    {
+      "eventName": "European Astronomical Society (EAS) meeting 2025",
+      "eventLoc": "Cork, Ireland",
+      "eventPage": "https://eas.unige.ch/EAS2025/",
+      "eventDate": "2025-06",
+      "contribType": "Poster",
+      "contribTitle": "Sensitivity in atmospheric retrievals of JWST hot Jupiter transmission spectra"
+    },
     {
       "eventName": "Ariel Consortium Meeting",
       "eventLoc": "Lisbon, Portugal",
