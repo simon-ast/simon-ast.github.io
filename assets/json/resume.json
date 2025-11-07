@@ -50,6 +50,13 @@
 
   "publications": [
     {
+      "name": "Knobs and dials of retrieving JWST transmission spectra. II. Impacts of pipeline-level differences on retrieval posteriors",
+      "authors": "S. Schleich, S. Boro Saikia, Q. Changeat, M. Güdel, A. Voigt, and I. Waldmann",
+      "publisher": "accepted for publication in Astronomy & Astrophysics",
+      "releaseDate": "2025-11",
+      "role": "Author"
+    },
+    {
       "name": "Habitable Zone and Atmosphere Retention Distance (HaZARD). Stellar-evolution-dependent loss models of secondary atmospheres",
       "authors": "G. Van Looveren, S. Boro Saikia, O. Herbort, S. Schleich, M. Güdel, C. P. Johnstone, and K. G. Kislyakova",
       "publisher": "Astronomy & Astrophysics, 694, A310",
