@@ -15,6 +15,12 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography %}
+{% capture upcoming_block %}{% bibliography --group_by none --query @*[upcoming=true]* %}{% endcapture %}
+{% if upcoming_block contains '<li' %}
+  <h2 class="bibliography">Upcoming</h2>
+  {{ upcoming_block }}
+{% endif %}
+
+{% bibliography --query @*[upcoming!=true]* %}
 
 </div>

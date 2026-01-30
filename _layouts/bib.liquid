@@ -174,7 +174,12 @@
       {% include hook/bib.liquid %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
-    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
+    {% assign is_upcoming = entry.upcoming | downcase | default: 'false' %}
+    {% capture periodical %}
+      {{ entrytype }}{% if entrytype_text != "" and is_upcoming != 'true' and entryyear != "" %}, {% endif %}{% if is_upcoming != 'true' %}{{ entryyear }}{% endif %}
+      {% if entry.volume %}, {{ entry.volume }}{% endif %}
+      {% if entry.number %}, {{ entry.number }}{% elsif entry.pages %}, {{ entry.pages }}{% endif %}
+    {% endcapture %}
     <div class="periodical">
       {{ periodical | strip }}
     </div>
