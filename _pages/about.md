@@ -19,13 +19,13 @@ news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-I am a PhD student at the University of Vienna.
+I am an Associated Researcher at the University of Vienna.
 My research focusses on the observation and characterisation of 
 <a href='https://exoatmospheres.univie.ac.at/'>exoplanetary atmospheres</a>. 
 I perform end-to-end data reduction on observations taken by the
 James Webb Space Telescope (JWST), and atmospheric retrievals based on 
 Bayesian inference.
 
-I currently work on the atmospheres of hot Jupiters and sub-Neptunes, 
+I currently work on the atmospheres of hot Jupiters,
 but my research interests also include the co-evolution of star-planet systems, 
 interactions between host stars and their planets, and planetary habitability.
