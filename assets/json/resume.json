@@ -59,6 +59,14 @@
 
   "publications": [
     {
+      "name": "Self-consistent 1D modelling of Jupiter’s upper atmosphere as an exoplanet analogue",
+      "authors": "N.-M. Robeling, S. Boro Saikia, G. Van Looveren, I. Stanković, S. Schleich, C. P. Johnstone, M. Güdel, and K. Kislyakova",
+      "publisher": "Astronomy & Astrophysics (forthcoming article)",
+      "releaseDate": "2026-08",
+      "role": "Co-Author",
+      "url": "https://doi.org/10.1051/0004-6361/202659081"
+    },
+    {
       "name": "Knobs and dials of retrieving JWST transmission spectra. II. Impacts of pipeline-level differences on retrieval posteriors",
       "authors": "S. Schleich, S. Boro Saikia, Q. Changeat, M. Güdel, A. Voigt, and I. Waldmann",
       "publisher": "Astronomy & Astrophysics, 704, A223",
