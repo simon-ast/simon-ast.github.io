@@ -33,7 +33,7 @@
       "studyType": "Doctor of Natural Sciences (Dr. rer. nat.)",
       "startDate": "2022-10-01",
       "endDate": "2026-07-15",
-      "highlight": "Thesis: Challenging atmospheric retrievals (<a href='https://github.com/simon-ast/dissertation'>link</a>)"
+      "highlight": "Thesis: Challenging atmospheric retrievals (<a href='https://utheses.univie.ac.at/detail/80418/'>link</a>)"
     },
     {
       "institution": "University of Vienna",
@@ -101,6 +101,14 @@
   ],
 
   "presentations": [
+    {
+      "eventName": "Ariel Consortium Meeting",
+      "eventLoc": "Vienna, Austria",
+      "eventPage": "https://ariel2026.univie.ac.at/",
+      "eventDate": "2026-09",
+      "contribType": "Talk",
+      "contribTitle": "Retrieving p-T structure in panchromatic transmission spectra"
+    },
     {
       "eventName": "Science with Hubble and JWST VIII",
       "eventLoc": "Vienna, Austria",
