@@ -136,6 +136,21 @@ td.list-group-level {
   padding-left: 0.5rem;
 }
 
+li.skill-group {
+  display: flex;
+  align-items: flex-start;
+}
+
+span.skill-category {
+  flex: 0 0 8rem;
+  margin-right: 1rem;
+  text-align: center;
+}
+
+span.skill-items {
+  min-width: 0;
+}
+
 td.list-group-school {
   font-size: 0.7rem;
   padding-left: 0.5rem;

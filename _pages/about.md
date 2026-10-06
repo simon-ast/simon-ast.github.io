@@ -19,7 +19,7 @@ news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-I am an Associated Researcher at the University of Vienna.
+I am an Associated Researcher (postdoctoral) at the University of Vienna.
 My research focusses on the observation and characterisation of 
 <a href='https://exoatmospheres.univie.ac.at/'>exoplanetary atmospheres</a>. 
 I perform end-to-end data reduction on observations taken by the

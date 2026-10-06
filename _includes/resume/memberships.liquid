@@ -1,0 +1,26 @@
+<div class="list-groups">
+  {% for content in data[1] %}
+    <div class="list-group col-md-3">
+      <table class="table-cv list-group-table">
+        <tbody>
+          <tr>
+            <td class="list-group-category-icon"></td>
+            <td class="list-group-category">{{ content.name }}</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="list-group-name">
+              <em>{{ content.description }}</em>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="list-group-name">
+              <b>{{ content.year }}</b>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  {% endfor %}
+</div>

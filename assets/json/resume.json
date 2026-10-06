@@ -2,7 +2,7 @@
   "basics": {
     "name": "Simon Schleich",
     "email": "simon.schleich@univie.ac.at",
-    "url": "https://simon-ast.github.io"
+    "research interests": "Exoplanet atmospheres, JWST data reduction, and Bayesian retrievals"
   },
 
   "work": [
@@ -166,16 +166,53 @@
     }
   ],
 
-  "languages": [
+  "memberships": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "name": "Ariel consortium",
+      "description": "Space mission science consortium",
+      "year": "since 2023"
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "name": "EAS",
+      "description": "European Astronomical Society",
+      "year": "since 2023"
+    },
+    {
+      "name": "OeGAA",
+      "description": "Austrian Society for Astronomy and Astrophysics",
+      "year": "since 2023"
+    },
+    {
+      "name": "VISESS PhD Board",
+      "description": "Vienna Interntl. School for Earth and Space Sciences",
+      "year": "2023 - 2025"
+    }
+  ],
+
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": [
+        "English (fluent)",
+        "German (native)"
+      ]
+    },
+    {
+      "name": "Programming",
+      "keywords": [
+        "Python (experienced)",
+        "C (familiar)",
+        "HPC (Slurm Workload Manager)"
+      ]
+    },
+    {
+      "name": "Tools",
+      "keywords": [
+        "Eureka! (JWST data reduction)",
+        "TauREx (atmospheric retrieval)",
+        "Git",
+        "LaTeX"
+      ]
     }
   ]
 }
