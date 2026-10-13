@@ -81,6 +81,11 @@ let applyTheme = () => {
       background: getComputedStyle(document.documentElement).getPropertyValue("--global-bg-color") + "ee", // + 'ee' for trasparency.
     });
   }
+  if (typeof publication_preview_zoom !== "undefined") {
+    publication_preview_zoom.update({
+      background: getComputedStyle(document.documentElement).getPropertyValue("--global-bg-color") + "ee", // + 'ee' for trasparency.
+    });
+  }
 };
 
 let setHighlight = (theme) => {

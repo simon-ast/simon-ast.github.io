@@ -105,13 +105,21 @@
         {%- if more_authors > 1 -%}
           {% assign more_authors_hide = more_authors_hide | append: 's' %}
         {%- endif -%}
+        {% assign more_authors_include_self = false %}
         {% assign more_authors_show = '' %}
         {%- for author in entry.author_array offset: author_array_limit -%}
+          {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
+          {% if site.scholar.last_name contains author_last_name and site.scholar.first_name contains author.first %}
+            {% assign more_authors_include_self = true %}
+          {% endif %}
           {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author.last %}
           {% unless forloop.last %}
             {% assign more_authors_show = more_authors_show | append: ', ' %}
           {% endunless %}
         {%- endfor -%}
+        {% if more_authors_include_self %}
+          {% assign more_authors_hide = more_authors_hide | append: ' (including S. Schleich)' %}
+        {% endif %}
         {%- assign more_authors_show = more_authors_show | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
         , and
         <span
