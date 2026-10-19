@@ -58,19 +58,20 @@
   ],
 
   "publications": [
-    {
-      "name": "On the synergetic use of Ariel and JWST for exoplanet atmospheric science",
-      "authors": "Q. Changeat, P-O. Lagage, G. Tinetti, B. Charnay, N. B. Cowan, C. Danielski, E. Ducrot, A. Dyrek, B. Edwards, M. Ikoma , et al. (including S. Schleich)",
-      "publisher": "RAS Techniques and Instruments (under review)",
-      "releaseDate": "2026-10",
-      "role": "Co-Author"
-    },
+    //{
+    //  "name": "On the synergetic use of Ariel and JWST for exoplanet atmospheric science",
+    //  "authors": "Q. Changeat, P-O. Lagage, G. Tinetti, B. Charnay, N. B. Cowan, C. Danielski, E. Ducrot, A. Dyrek, B. Edwards, M. Ikoma , et al. (including S. Schleich)",
+    //  "publisher": "RAS Techniques and Instruments (under review)",
+    //  "releaseDate": "2026-10",
+    //  "role": "Co-Author"
+    //},
     {
       "name": "The physical and chemical structure of Titan's upper atmosphere: energy balance, photochemistry and Jeans escape",
       "authors": "S. Boro Saikia, J. Tennyson, S. Ji, N.-M. Robeling, I. Stanković, G. Van Looveren, S. Schleich, C. P. Johnstone, K. Kislyakova, M. Güdel",
-      "publisher": "Monthly Notices of the RAS (accpeted for publication)",
+      "publisher": "Monthly Notices of the RAS, stag1951",
       "releaseDate": "2026-10",
-      "role": "Co-Author"
+      "role": "Co-Author",
+      "url": "https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stag1951/8916626?login=false"
     },
     {
       "name": "Self-consistent 1D modelling of Jupiter's upper atmosphere as an exoplanet analogue",
